@@ -10,7 +10,7 @@ public class HelloWorldController {
 	
 	@GetMapping
 	public String hello() {
-		return "Docker project with ci cd pipeline";
+		return "Docker project with ci cd pipeline and pushing in to repository";
 	}
 
 }
